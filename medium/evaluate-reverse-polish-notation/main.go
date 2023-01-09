@@ -1,8 +1,6 @@
 package medium
 
-import (
-	"strconv"
-)
+import "strconv"
 
 func evalRPN(tokens []string) int {
 	// reverse polish notation is just postfix notation
